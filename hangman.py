@@ -11,6 +11,8 @@ wordList = [
     "Doing coding",
     "Road",
     "Taco Bell",
+    "Water Bottle",
+    "Computer",
 ]
 
 # enter loop until user wants to exit'
@@ -41,7 +43,7 @@ while True:
         else:
             hid.append(" ")
 
-    # enter loop until gamem is complete
+    # enter loop until game is complete
     while miss < 5:
         # declare variable for index
         index = 0
